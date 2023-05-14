@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "linear-algebra"
+version = "0.0.1"
+description = "Linear algebra problems and such"
+authors = ["Eric Fulmer <2952996+EFulmer@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "linear_algebra"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipython = "^8.13.2"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+numpy = "^1.24.3"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
